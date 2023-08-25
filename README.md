@@ -1,2 +1,2 @@
 # landing-page
-top project
+top project for creating a website from scratch
