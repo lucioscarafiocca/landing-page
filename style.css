@@ -22,12 +22,15 @@ ul {
     font-family: "roboto", sans-serif;
     display: flex;
     flex-direction: column;
+    padding: 100px;
 }
 
 .hero-main {
     font-size: 48px;
     font-weight: 900;
-    color: #F9FAF8
+    color: #F9FAF8;
+    margin-bottom: 10px;
+    
 }
 
 .hero-sub, ul {
@@ -52,14 +55,92 @@ button {
 }
 
 .test {
+    display: flex;
+    flex-direction: column;
     padding: 40px;
+    height: 280px;
 }
 
+.test-two {
+    display: flex;
+}
 
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: black;
     margin-top: 0px;
+    flex-direction: column;
+    font-family: "roboto", sans-serif;
+}
+
+.content-two {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background: white;
+    padding: 200px;
+}
+
+.images-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.header-two {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937
+}
+
+.but {
+    margin-left: 70px;
+    background: white;
+    width: 200px;
+    height: 200px;
+    border-color: #3882F6;
+    border-radius: 15px;
+    border-width: 4px;
+}
+
+
+.content-three {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+}
+
+.para {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.sign {
+    text-align: end;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.content-four {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+}
+
+.main-box {
+    display: flex;
+    background-color: #3882F6;
+    padding: 100px;
+    border-radius: 20px;
+}
+
+.zec > h3 {
+    font-size: 30px;
 }
