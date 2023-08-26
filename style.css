@@ -22,7 +22,8 @@ ul {
     font-family: "roboto", sans-serif;
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    padding: 50px;
+    padding-top: 0;
 }
 
 .hero-main {
@@ -137,10 +138,60 @@ body {
 .main-box {
     display: flex;
     background-color: #3882F6;
-    padding: 100px;
+    padding: 70px;
     border-radius: 20px;
+}
+
+
+.zec {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 100px;
 }
 
 .zec > h3 {
     font-size: 30px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
+
+.zec > p {
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.zac > button {
+    border-color: white;
+    color: white;
+    width: 150px;
+    font-family: "roboto";
+    font-weight: 900;
+    font-size: 19px;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+.zac {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.content-five {
+    background: #1F2937;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy > p {
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
 }
